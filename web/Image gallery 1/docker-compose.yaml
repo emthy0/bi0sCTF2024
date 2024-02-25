@@ -1,0 +1,14 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - 3888:3000
+    volumes:
+      - ./cache:/app/public
+    develop:
+      watch:
+        - action: rebuild
+          path: ./src/app.js
+        - action: rebuild
+          path: ./src/bot.js
