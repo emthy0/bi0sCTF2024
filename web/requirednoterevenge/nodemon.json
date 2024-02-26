@@ -1,0 +1,4 @@
+{
+  "watch": [".","settings.proto"],
+  "ignore": ["node_modules/*", "notes/*"]
+}

@@ -1,0 +1,14 @@
+9917
+5375
+4542
+
+Your choice : 
+flag :  24305
+current :  21930
+diff 2375
+9
+[*] Switching to interactive mode
+
+-[[>+<-]>-]
+
+>>>>>>++++<<<<<<+[>[<-]<[->+<]>]>

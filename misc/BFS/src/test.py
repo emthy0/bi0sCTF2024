@@ -1,5 +1,4 @@
-#!/bin/python3
-
+#! /usr/bin/env python3
 # THIS WOULD BE A TEST INTERPRETER PROGRAMME FOR BRAINF*CK THAT YOU CAN MODIFY AND USE
 # TO TEST OUT YOUR SOLUTIONS TO THE GIVEN PROBLEMS
 # THIS IS SIMILAR TO THE REMOTE VERSION BUT IS NOT THE SAME AND THE REMOTE HAS WAY MORE FUNCTIONALITY THAN THE FOLLOWING CODE
@@ -148,7 +147,8 @@ def run(code):
     global pc,dp
     pc = 0
     while (pc != len(code)):
-        debug()
+        if pc % 10 == 0:
+            debug()
         if(code[pc] == ">"):
             dp += 1
             checkdp()
